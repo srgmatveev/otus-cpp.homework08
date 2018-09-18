@@ -14,7 +14,6 @@ std::set<std::string> familes{};
     std::map<std::string, std::size_t> used;
     std::queue<std::string> queue;
     std::string Isenbaev = "Isenbaev";
-    std::string testData{"7"};
     std::size_t n{0};
     std::ios::sync_with_stdio(false);
     std::cin >> n;
