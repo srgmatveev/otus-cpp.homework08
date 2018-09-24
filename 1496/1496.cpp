@@ -12,7 +12,7 @@ int main(int argc, char const *argv[])
     for (std::size_t i = 0; i < n; ++i)
     {
         std::cin >> tmp_str;
-        commits[tmp_str] = ++commits[tmp_str];
+        ++commits[tmp_str];
     }
 
     for (auto &item : commits)

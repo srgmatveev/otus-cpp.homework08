@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
     for (std::size_t i = 0; i < n; ++i)
     {
         std::cin >> tmp_digit;
-        learner[tmp_digit] = ++learner[tmp_digit];
+        ++learner[tmp_digit];
     }
     std::size_t count{0};
 
